@@ -1,0 +1,51 @@
+.playlist-page {
+    padding: 20px;
+}
+
+.playlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax for desired card size */
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.playlist-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+}
+
+.playlist-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.hashtags {
+    margin-top: 10px;
+}
+
+.hashtag {
+    background-color: #ddd;
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.create-btn {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #564787;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.create-btn:hover {
+    background-color: #0056b3;
+}

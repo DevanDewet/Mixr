@@ -1,0 +1,11 @@
+/* profilepage.css */
+.profile-page {
+    padding: 20px;
+
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}

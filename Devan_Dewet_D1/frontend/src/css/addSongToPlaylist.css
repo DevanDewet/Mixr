@@ -1,0 +1,15 @@
+.add-song-to-playlist {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.add-song-to-playlist h3 {
+  margin-top: 0;
+}
+
+.add-song-to-playlist select {
+  width: 100%;
+  padding: 5px;
+}
