@@ -1,0 +1,59 @@
+.profile-page {
+    color: white;
+    padding: 20px;
+}
+
+.profile-dashboard-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    background-color: rgb(95, 95, 91); 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.edit-profile-button,
+.delete-profile-button {
+    background-color: rgb(176, 176, 176);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 10px 0;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.edit-profile-button:hover,
+.delete-profile-button:hover {
+    background-color: #5c5d5e;
+    transform: translateY(-2px);
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.profile-preview-section {
+   background-color: rgb(95, 95, 91);
+    border-radius: 10px; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.counters-section {
+    background-color: rgb(95, 95, 91); 
+    border-radius: 10px; 
+    padding: 15px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: rgb(95, 95, 91); 
+}

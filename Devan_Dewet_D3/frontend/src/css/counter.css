@@ -1,0 +1,19 @@
+/* counter.css */
+.counter {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(176, 176, 176);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.counter h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.counter p {
+    font-size: 24px;
+    font-weight: bold;
+}

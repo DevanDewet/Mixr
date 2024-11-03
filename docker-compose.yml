@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: .  # Path to your frontend Dockerfile
+      dockerfile: Dockerfile  # Name of your frontend Dockerfile
+    ports:
+      - "3000:3000"  # Map host port 3000 to container port 3000
+
+  backend:
+    build:
+      context: .  # Path to your backend Dockerfile
+      dockerfile: Dockerfile.backend  # Name of your backend Dockerfile
+    ports:
+      - "5000:5000"  # Map host port 5000 to container port 5000
