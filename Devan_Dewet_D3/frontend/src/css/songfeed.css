@@ -1,0 +1,22 @@
+.songfeed-container {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+.songfeed-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 1px solid rgba(86, 71, 135, 0.5); 
+}
+
+.song-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.addsong{
+    background-color: rgb(176, 176, 176);
+}

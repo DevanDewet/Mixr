@@ -1,0 +1,71 @@
+
+
+.followers-list, .following-list {
+    width: 500px; 
+    margin: 0 auto; 
+}
+
+.scrollable-list {
+    max-height: 200px; 
+    overflow-y: auto; 
+    padding: 10px; 
+ 
+    margin-top: 10px; 
+    border-radius: 15px; 
+}
+
+
+.profile-preview {
+    display: flex;
+    align-items: center;
+    margin: 5px 0; 
+    background-color: rgb(176, 176, 176); 
+    padding: 10px; 
+    border-radius: 15px; 
+}
+
+.profile-preview img {
+    border-radius: 50%; 
+    margin-right: 10px; 
+    width: 50px; 
+    height: 50px; 
+}
+
+.profile-preview h3, .profile-preview p {
+    color: white; 
+}
+
+.profile-preview h3 {
+    margin: 0; 
+    font-weight: bold; 
+}
+
+.profile-preview p {
+    margin: 0; 
+    color: white; 
+}
+
+
+.scrollable-list::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+   
+    border-radius: 10px; 
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+    background: rgb(176, 176, 176); 
+    border-radius: 10px; 
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+    background: rgb(160, 160, 160); 
+}
+
+
+.scrollable-list {
+    scrollbar-width: thin; 
+    scrollbar-color: rgb(176, 176, 176) rgba(255, 255, 255, 0.1); 
+}

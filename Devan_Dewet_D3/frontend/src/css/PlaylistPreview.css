@@ -1,0 +1,40 @@
+
+
+.playlist-card {
+    background-color: #4a4a4a; 
+    color: white; 
+    border: 1px solid #6c757d; 
+    margin-bottom: 10px; 
+    border-radius: 0.5rem; 
+}
+
+.playlist-cover {
+    border-radius: 0.5rem 0.5rem 0 0; 
+    width: 100%; 
+    height: auto; 
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    margin-bottom: 0.5rem; 
+}
+
+.badge {
+    background-color: #007bff; 
+    color: white; 
+}
+
+.dropdown-menu {
+    background-color: #343a40; 
+}
+
+.dropdown-item {
+    color: white; 
+}
+
+.dropdown-item:hover {
+    background-color: #495057; 
+}

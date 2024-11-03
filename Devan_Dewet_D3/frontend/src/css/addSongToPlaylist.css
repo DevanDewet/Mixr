@@ -1,0 +1,98 @@
+.open-form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #564787; /* Button color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth transition */
+  margin: 10px; /* Margin around button */
+}
+
+.open-form-button:hover {
+  background-color: rgb(150, 150, 150); /* Darker shade for hover */
+}
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  z-index: 999; /* High z-index */
+}
+
+.add-song-form {
+  background-color: #4a4a4a; /* Match the existing background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  padding: 20px; /* Padding inside the form */
+  max-width: 400px; /* Limit the width */
+  width: 90%; /* Full width on small screens */
+  position: fixed; /* Fixed position for overlay effect */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Centering transform */
+  z-index: 1000; /* Higher than overlay */
+}
+
+.add-song-form h2 {
+  margin-bottom: 15px; /* Space below the title */
+  color: white; /* White text for the title */
+  text-align: center; /* Centered title */
+}
+
+.add-song-form form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Stack inputs vertically */
+}
+
+.add-song-form form div {
+  margin-bottom: 10px; /* Space between input sections */
+}
+
+.add-song-form label {
+  color: white; /* White labels */
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Space below the label */
+  font-weight: bold; /* Bold labels */
+}
+
+.add-song-form input[type="text"],
+.add-song-form select {
+  padding: 15px; /* Padding inside input fields */
+
+  border-radius: 4px; /* Rounded input fields */
+  margin-bottom: 15px; /* Space between inputs */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background for inputs */
+  color: white; /* White text */
+}
+
+.add-song-form button {
+  padding: 10px 20px; /* Padding for buttons */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded button */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition effects */
+  background-color: rgb(176, 176, 176); /* Default button color */
+  color: white; /* White text */
+}
+
+.add-song-form button:hover {
+  background-color: rgb(150, 150, 150); /* Darker color on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.add-song-form button[type="button"] {
+  background-color: rgb(176, 176, 176); /* Default color for cancel button */
+}
+
+.add-song-form button[type="button"]:hover {
+  background-color: rgb(150, 150, 150); /* Darker color on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
